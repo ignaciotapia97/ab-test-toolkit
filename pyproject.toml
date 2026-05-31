@@ -1,0 +1,29 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ab-test-toolkit"
+version = "0.1.0"
+description = "A reusable Python package for rigorous A/B test analysis: power, significance testing, multiple-testing correction, and reporting."
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [{ name = "Ignacio Tapia" }]
+keywords = ["ab-testing", "experimentation", "statistics", "data-science", "hypothesis-testing"]
+dependencies = [
+    "numpy>=1.24",
+    "scipy>=1.11",
+    "statsmodels>=0.14",
+    "pandas>=2.0",
+    "matplotlib>=3.7",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=7.4", "jupyter>=1.0", "nbconvert", "ipykernel"]
+
+[tool.setuptools]
+packages = ["ab_toolkit"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

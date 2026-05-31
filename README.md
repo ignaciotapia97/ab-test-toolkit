@@ -125,7 +125,7 @@ ab_test_toolkit/
 ## Installation
 
 ```bash
-git clone https://github.com/ignacio-tapia/ab-test-toolkit.git
+git clone https://github.com/ignaciotapia97/ab-test-toolkit.git
 cd ab-test-toolkit
 python -m venv .venv && source .venv/bin/activate
 pip install -e ".[dev]"      # editable install + dev tools (pytest, jupyter)
@@ -166,4 +166,4 @@ pytest -q
 ## Author
 
 **Ignacio Tapia** — Senior Data Analyst with 5+ years running and analyzing experiments in marketplace and delivery platforms (Uber, PedidosYa, Front).
-[LinkedIn](https://linkedin.com/in/ignacio-tapia) · [GitHub](https://github.com/ignacio-tapia)
+[LinkedIn](https://www.linkedin.com/in/ignacio-tapia/) · [GitHub](https://github.com/ignaciotapia97) · [Kaggle](https://www.kaggle.com/ignaciotapialoayza)

@@ -63,7 +63,11 @@ generate_report(result, metric_name="Checkout Conversion Rate")
 
 ## Worked Examples
 
-See the `examples/` folder for full end-to-end analyses:
+See the `examples/` folder for full end-to-end analyses (executed, with plots and outputs):
+
+> 📓 If GitHub's notebook preview is slow or fails to render, open them via
+> [**nbviewer**](https://nbviewer.org/github/ignaciotapia97/ab-test-toolkit/tree/main/examples/) ·
+> [**Colab**](https://colab.research.google.com/github/ignaciotapia97/ab-test-toolkit) — both render straight from this repo.
 
 - **`01_conversion_rate_test.ipynb`** — Testing whether a new checkout flow increases conversion rate. Covers power analysis, test execution, and result interpretation.
 - **`02_revenue_per_user_test.ipynb`** — Testing whether a pricing change affects average revenue per user. Uses means testing and handles skewed distributions with Mann-Whitney.
